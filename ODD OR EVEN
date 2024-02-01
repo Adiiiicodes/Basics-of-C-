@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    int a;
+
+    printf("ENTER A NUMBER TI CHECK WHETHER IT IS AN EVEN NUMBER OR AN ODD NUMBER");
+    scanf("%d", &a);
+
+    if ((a%2)==0 ) {
+        printf("THE GIVEN NUMBER IS A EVEN NUMBER");
+    } else {
+        printf("THE GIVEN NUMBER IS AN ODD NUMBER");
+    }
+
+}
