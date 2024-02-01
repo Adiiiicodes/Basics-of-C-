@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main() {
+    int MARKS;
+    printf("ENTER MARKS");
+    scanf("%d", &MARKS);
+
+if (0<=MARKS && MARKS<30) {
+    printf("C");
+
+}
+    
+    else if ( 30<=MARKS && 70>MARKS  ) {
+        printf("B");
+    } 
+    
+    else if (70<=MARKS && MARKS<90) {
+        printf("A");
+    }
+    
+     else if (90<=MARKS && MARKS<=100) {
+        printf("A+");
+    } 
+     else {
+    printf ("INVALID MARKS");
+    }
+
+return 0;
+
+
+}
