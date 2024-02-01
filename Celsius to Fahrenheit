@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main() {
+    int c;
+    int F;
+
+    printf("ENTER TEMPERATURE IN CELCIUS");
+    scanf("%d", &c);
+
+     F = (9 * c) / 5 + 32;
+
+    printf("TEMPERATURE IN FARENHEITS IS : %d",F);
+
+    return 0;
+
+}
